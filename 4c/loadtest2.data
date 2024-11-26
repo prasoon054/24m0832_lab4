@@ -1,0 +1,21 @@
+Endpoint: /arithmetic/fibonacci?num=6
+Thread pool size = 1:
+Concurrent Requests     Throughtput(Requests/sec)
+5                       12458.84
+10                      12729.06
+15                      13062.79
+20                      13136.97
+
+Thread pool size = 2:
+Concurrent Requests     Throughtput(Requests/sec)
+5                       23840.52
+10                      24169.59
+15                      25061.71
+20                      26032.18
+
+Thread Pool Size = 4:
+Concurrent Requests     Throughput(Requests/sec)
+5                       25,468.17
+10                      27,088.82
+15                      27,149.94
+20                      28,282.86

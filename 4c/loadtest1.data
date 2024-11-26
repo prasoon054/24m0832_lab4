@@ -1,0 +1,27 @@
+Endpoint: /
+Thread pool size = 4:
+Concurrent Requests     Throughtput(Requests/sec)
+10                      22000
+20                      24500
+30                      26000
+40                      27500
+50                      28500
+60                      28800
+
+Thread pool size = 8:
+Concurrent Requests     Throughtput(Requests/sec)
+10                      24000
+20                      27500
+30                      29000
+40                      30000
+50                      31000
+60                      31000
+
+Thread pool size = 16:
+Concurrent Requests     Throughtput(Requests/sec)
+10                      27000
+20                      29000
+30                      30000
+40                      30500
+50                      31500
+60                      31500

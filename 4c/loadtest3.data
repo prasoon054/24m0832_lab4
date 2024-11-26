@@ -1,0 +1,21 @@
+Endpoint: /arithmetic/pingpong?str=Prasoon
+Thread pool size = 1:
+Concurrent Requests     Throughtput(Requests/sec)
+5                       8356.20
+10                      9363.18
+15                      9416.75
+20                      9556.15
+
+Thread pool size = 2:
+Concurrent Requests     Throughtput(Requests/sec)
+5                       12176.68
+10                      12545.43
+15                      13219.05
+20                      14608.86
+
+Thread pool size = 4:
+Concurrent Requests     Throughtput(Requests/sec)
+5                       12890.65
+10                      15769.64
+15                      16787.37
+20                      16860.90
